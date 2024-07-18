@@ -9,7 +9,7 @@ server.use(express.json());
 
 //connect server to database using mongoose library
 mongoose
-  .connect("mongodb+srv://Mallesh:Mallesh@123@jobapp.akossvr.mongodb.net/")
+  .connect("mongodb+srv://Mallesh:malleshyadav@jobapp.akossvr.mongodb.net/")
   .then(() => {
     console.log("connected successfully to the database");
   })
